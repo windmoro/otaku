@@ -1,0 +1,114 @@
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header stilleri */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Section stilleri */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer stilleri */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.sekil {
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    width: 370px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sekil1 {
+    background-image: url(african-child-20863125.jpg);
+}
+
+.sekil2 {
+    background-image: url(dreamy-african-child-8623003.webp);
+}
+
+.sekil3 {
+    background-image: url(african-child-8686323.webp);
+}
+
+.sekil4 {
+    background-image: url(dreamy-african-child-8623003.webp);
+}
+
+.sekil5 {
+    background-image: url(african-child-8686323.webp);
+}
+
+.sekil6 {
+    background-image: url(african-child-20863125.jpg);
+}
+
+
+
+.sekil:hover {
+    transform: scale(1.1);
+    opacity:70%;
+}
+.btn1 {
+    color: #090909;
+    padding: 0.6em 1.9em;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 0.3em;
+    background: #000000;
+    border: 1px solid #ffffff;
+    transition: all .3s;
+    box-shadow: 3px 3px 12px #c5c5c5,
+               -1px -1px 1px #bababa;
+  }
+  
+  .btn1:hover {
+    border: 1px solid rgb(116, 116, 116);
+  }
+  
+  .btn1:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #5d5c5c;
+  }
+
